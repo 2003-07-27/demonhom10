@@ -1,0 +1,102 @@
+* {
+  background-color: rgb(235, 212, 183);
+}
+h1,
+h3 {
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+h3 {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+#champion-score {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#champion {
+  width: 120px;
+  height: 120px
+}
+#score {
+  color: brown;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -60%);/*di chuyển lên trên và sang trái so với vị trí ban đầu 40% và 60% của kích thước của chính nó.*/
+  background-color: rgba(0, 0, 0, 0);
+}
+p {
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  color: red;
+}
+#question {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* cột đầu tiên và cột thứ hai trong lưới sẽ có độ rộng bằng nhau và tỷ lệ 1:1.*/
+  margin-left: 400px;
+  margin-top: -80px;
+  text-align: center;
+}
+#picture {
+  width: 700px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#descriptionButton {
+  width: 80px;
+  height: 80px;
+  font-size: 35px;
+  background-color: rgb(210, 178, 238);
+  cursor: pointer;
+  &:hover{
+    background-color: blueviolet
+  }
+}
+#answerQuestion {
+  margin-top: 40px;
+}
+#delete,
+#giveUp {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(165, 192, 193);
+  &:hover {
+    background-color: red;
+  }
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#nextQuestion,
+#checkAnswer {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  margin-left: 20px;
+  border-radius:50% ;
+  background-color: beige;
+  &:hover {
+    background-color: rgb(249, 158, 55);
+  }
+}
+#answer {
+  height: 40px;
+  width: 350px;
+  font-size: 30px;
+  background-color: aliceblue;
+}
+
