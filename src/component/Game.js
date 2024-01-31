@@ -67,7 +67,7 @@ const Game = () => {
   if (currentQuestionIndex >= questions.length) {
     return (
       <div>
-        <h1>Game Over</h1>
+        <h1>GAME OVER</h1>
         <p>Final Score: {score}</p>
       </div>
     );
@@ -88,7 +88,7 @@ const Game = () => {
   };
   return (
     <div>
-      <h1>Spelling Word Scramble Game</h1>
+      <h1>Spelling Word Scramble GAME</h1>
       <h3>Use the letters to spell the word</h3>
       {/**Hiển thị icon và điểm số */}
       <div id="champion-score">
